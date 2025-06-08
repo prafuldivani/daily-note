@@ -1,0 +1,25 @@
+{
+  "short_name": "The Daily Note App",
+  "name": "The Daily Note",
+  "description": "The Daily Note App will help you to take notes on daily basis which help you to take track of your day and recall the days.",
+  "icons": [
+    {
+      "src": "the_note_icon.png",
+      "purpose": "any",
+      "sizes": "300x300",
+      "type": "image/png"
+    },
+    {
+      "src": "the_note_icon_144.png",
+      "purpose": "any",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#DE496E",
+  "orientation": "portrait",
+  "background_color": "#ffffff"
+}
