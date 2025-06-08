@@ -25,6 +25,18 @@
       rel="stylesheet"
     />
 
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' https://www.gstatic.com https://accounts.google.com https://apis.google.com 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: https:;
+        connect-src 'self' https://accounts.google.com https://apis.google.com;
+        frame-src 'self' https://accounts.google.com https://apis.google.com;
+      "
+    />
+
     <title>The Note App</title>
   </head>
   <body>
